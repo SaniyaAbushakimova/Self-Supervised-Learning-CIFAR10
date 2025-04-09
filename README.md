@@ -10,6 +10,9 @@ A **ResNet18** model is first pre-trained on a rotation classification task, whe
 
 The project also explores fine-tuning the pre-trained model for CIFAR-10 classification, training a more advanced architecture (**EfficientNetV2-L**), and comparing performance under both full supervision and semi-supervised settings. These experiments demonstrate the value of **self-supervised learning as a strong initialization strategy**.
 
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/84c292a5-0bf2-40bb-85c4-25feab4e3bb5" />
+
+
 ## What This Project Includes
 **1. Rotation Prediction (Self-Supervised Pretraining):** ResNet18 is trained to classify the rotation angle of input images as a pretext task to learn semantic representations. 
 
