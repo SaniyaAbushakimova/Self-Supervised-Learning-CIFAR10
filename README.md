@@ -31,4 +31,4 @@ In semi-supervised settings, models initialized with rotation-pretrained weights
 
 ## Repository Contents
 * `self_supervised_cifar10.ipynb` -- Jupyter notebook containing all training, fine-tuning, and evaluation steps using PyTorch.
-* `Report.pdf` – summary of experimental results and observations.
+* `Report.pdf` -- summary of experimental results and observations.
