@@ -10,20 +10,20 @@ A ResNet18 model is first pre-trained on a rotation classification task, where i
 
 The project also explores fine-tuning the pre-trained model for CIFAR-10 classification, training a more advanced architecture (EfficientNetV2-L), and comparing performance under both full supervision and semi-supervised settings. These experiments demonstrate the value of self-supervised learning as a strong initialization strategy.
 
-## What This Project Includes
-**1. Rotation Prediction (Self-Supervised Pretraining):**
+## What This Project Includes \
+**1. Rotation Prediction (Self-Supervised Pretraining):** \
   ResNet18 is trained to classify the rotation angle of input images as a pretext task to learn semantic representations.
-**2. Fine-Tuning Last Layers:**
+**2. Fine-Tuning Last Layers:** \
   The final block and linear classification layer of the pre-trained ResNet18 are fine-tuned for CIFAR-10 image classification.
-**3. Full Network Fine-Tuning:**
+**3. Full Network Fine-Tuning:** \
   The entire pre-trained model is fine-tuned and compared to a model trained from scratch.
-**4. Advanced Architecture Training:**
+**4. Advanced Architecture Training:** \
   EfficientNetV2-L is trained both from scratch and using pre-trained rotation weights to push classification accuracy further.
-**5. Semi-Supervised vs Supervised Comparison:**
+**5. Semi-Supervised vs Supervised Comparison:** \
   A comparative experiment recreating the Gidaris et al. paper’s Figure 5b shows the advantage of self-supervised learning when labeled data is limited.
 
 ## Results Summary
-\begin{table}[h!]
+$\begin{table}[h!]
 \centering
 \begin{tabular}{|l|c|}
 \hline
@@ -40,7 +40,7 @@ Classification (EfficientNetV2, Scratch) & 69.38\% \\
 \hline
 \end{tabular}
 \caption{Results Summary for all training and fine-tuning experiments on CIFAR-10.}
-\end{table}
+\end{table}$
 
 In semi-supervised settings, models initialized with rotation-pretrained weights outperformed fully supervised models when trained on fewer than 1000 labeled images per class.
 
