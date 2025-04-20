@@ -2,7 +2,7 @@
 
 Project completed on April 3, 2025.
 
-## Project Overview
+## Project Overview 
 
 This project explores **self-supervised learning** through a **rotation prediction task**, inspired by the work of Gidaris et al. (2018) titled *“Unsupervised Representation Learning by Predicting Image Rotations.”* The goal is to learn meaningful image representations without using class labels and to transfer these representations to a supervised image classification task on the **CIFAR-10 dataset**.
 
